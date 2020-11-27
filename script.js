@@ -10,7 +10,7 @@ for (i = 0; i < buttons.length; i++) {
         writex(this);
         // ----------- Writing inside the button ------------
         if (win() !== undefined) {
-           alert(win());
+           alert("Player " + win() + " wins!!");
         }
         // ----------- Calculating the winner -------------
         empty = [];
@@ -23,7 +23,7 @@ for (i = 0; i < buttons.length; i++) {
         play();
         // ----------- Computer Turn ---------------
         if (win() !== undefined) {
-            alert(win());
+            alert("Player " + win() + " wins!!");
         }
         // ----------- Calculating the winner -------------
     };
